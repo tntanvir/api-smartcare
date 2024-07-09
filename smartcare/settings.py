@@ -32,7 +32,7 @@ SECRET_KEY = 'django-insecure-sltha6*6hjlfn@b-br75zx6$)msss6ox)@jukf4g2v#c9%%04u
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
-
+CSRF_TRUSTED_ORIGINS = ["https://api-smartcare.onrender.com/"]
 
 # Application definition
 
